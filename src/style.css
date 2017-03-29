@@ -1,0 +1,69 @@
+#weather .row{
+    margin: 0;
+}
+#weather .tab-pane{
+    overflow: hidden;
+    background: #4cb5ff;
+    padding: 12px 0;
+}
+#weather .nav-tabs>li.active>a, #weather .nav-tabs>li.active>a:focus, #weather .nav-tabs>li.active>a:hover{
+    background: #4cb5ff;
+}
+._weatherTemperature{
+    font-size: 50px;
+    position: relative;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 11px;
+}
+._weatherTemperature>span{
+    position: absolute;
+    font-size: 12px;
+    margin-left: 15px;
+}
+._weatherTemperature>span:first-child{
+    top: 13px;
+}
+._weatherTemperature>span:first-child:after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    bottom: -6px;
+    right: 0;
+}
+._weatherTemperature>span:last-child{
+    bottom: 13px;
+}
+._weatherDesc{
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    font-style: italic;
+}
+._weatherCityName{
+    color: #fff;
+    font-size: 18px;
+}
+._weatherDate{
+    color: #ffffff;
+    font-size: 13px;
+}
+._weatherAllInfo{ margin-top: 35px;}
+._weatherAllInfo>p{
+    color: #ffffff;
+    font-size: 13px;
+}
+._weatherAlert{
+    text-align: center;
+}
+#weather #allDays p, #weather #allDays img{
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+}
+#weather .nav-tabs>li>a{font-size: 15px;}
+#weather #allDays .col-xs-2{padding: 0;}
+#weather{ width: 505px;}
